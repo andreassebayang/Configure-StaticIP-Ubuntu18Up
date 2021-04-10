@@ -7,7 +7,7 @@
 ## Step 
 ### 1. VirtualBox
     
-    Configure Network
+  Configure Network
     * Adapter 1
       - [x] Enable Network Adapter
          * Attached to : NAT
