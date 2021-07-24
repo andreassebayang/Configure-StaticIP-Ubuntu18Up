@@ -36,5 +36,6 @@ network:
    version: 2
 ```
 - Don't forget to save the configuration
+- sudo netplan apply
 
 
