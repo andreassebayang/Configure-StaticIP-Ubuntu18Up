@@ -22,4 +22,19 @@ Configure Network
 * Name : VirtualBox Host-Only Ethernet Adapter
   You must set in File --> Host Network Manager --> Create --> Apply (ignore it)
 
-### 2.
+### 2. In Ubuntu Server or Ubuntu Desktop
+- Copy the default File configuration
+- Edit the copy of File configuration
+```
+network:
+   ethernets:
+       enp0s8:
+           dhcp: false
+           addresses: [192.168.xx.xx/24]
+       enp0s8:
+           dhcp: true
+   version: 2
+```
+- Don't forget to save the configuration
+
+
