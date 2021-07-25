@@ -29,10 +29,9 @@ Configure Network
 network:
    ethernets:
        enp0s8:
-           dhcp: false
            addresses: [192.168.xx.xx/24]
-       enp0s8:
-           dhcp: true
+           gateway4: 192.168.xx.x
+           dhcp4: no
    version: 2
 ```
 - Don't forget to save the configuration
